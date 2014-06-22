@@ -6,11 +6,9 @@ Source Link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%
 
 unzip to local drive
 
-run_analysis.R to local drive
+run_analysis.R to parent folder of UCI HAR Dataset
 
-setwd to unzipped source data location
+setwd to UCI HAR Dataset
 
 
-Run run_analysis.R which will create three files
-
-Use data <- read.table("my_data_set") to read the data files you've created.
+Run run_analysis.R which will create a new file tiny_data.txt in your working directory
